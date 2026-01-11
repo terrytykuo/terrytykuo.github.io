@@ -1,0 +1,11 @@
+# Your publications (papers, articles, books)
+
+- title: "Optimizing Database Queries at Scale"
+  journal: "ACM SIGMOD Record"
+  year: 2023
+  url: "https://doi.org/example"
+
+- title: "A Practical Guide to Microservices"
+  journal: "O'Reilly Media (Book)"
+  year: 2022
+  url: "https://oreilly.com/example"

@@ -1,0 +1,34 @@
+# Community involvement and public speaking
+
+leadership:
+  - title: Board Member
+    organization: Taiwanese Chamber of Commerce in Denmark (TCCDK)
+    organization_zh: 丹麥台灣商會
+    period: 2024 - Present
+    description: Actively contributing to the Taiwanese business community in Denmark, fostering connections between Taiwan and Denmark.
+    highlights:
+      - Organizing networking events for Taiwanese professionals in Denmark
+      - Bridging business opportunities between Taiwan and Denmark
+    logo: /assets/img/community/tccdk-logo.png
+    website: https://tccdk.dk
+
+talks:
+  - title: "Introduction to Machine Learning and AI"
+    event: Taipei Representative Office in Denmark (駐丹麥台北代表處)
+    date: 2025
+    description: Delivered a public talk introducing fundamental concepts of Machine Learning and Artificial Intelligence, making complex topics accessible to a general audience at the Taiwan embassy in Denmark.
+    highlights:
+      - Overview of ML/AI fundamentals and real-world applications
+      - Interactive discussion on AI's impact on various industries
+    slides_url:
+    video_url:
+
+  - title: "Vibe Coding: AI-Assisted Development Workshop"
+    event: TCCDK Tech Meetup
+    date: 2025
+    description: Introduced vibe coding methodology and demonstrated how to leverage AI tools for software development, helping participants understand the future of programming.
+    highlights:
+      - Hands-on demonstration of AI-assisted coding workflows
+      - Interactive Q&A session on integrating AI into development
+    slides_url:
+    video_url:

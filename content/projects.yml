@@ -1,0 +1,111 @@
+# Personal Projects Data
+# Rich content for website showcase
+
+- id: tccdk-mobile
+  name: TCCDK Mobile App
+  tagline: Official mobile app for Taiwanese Chamber of Commerce in Denmark
+  status: Focus Group Testing
+  category: Mobile App
+
+  description: |
+    A full-featured membership platform developed for the Taiwanese Chamber of Commerce in Denmark.
+    The app provides digital membership card verification, partner benefits management, event
+    registration, and a complete admin dashboard for content management.
+
+  features:
+    - Digital membership verification with secure, time-limited tokens
+    - Partner store catalog with exclusive member discounts
+    - Event registration system with capacity management and push notifications
+    - Role-based admin dashboard with real-time analytics
+    - Custom Nordic-inspired design system with advanced gesture animations
+
+  tech_stack:
+    frontend:
+      - React Native 0.81
+      - Expo ~54.0
+      - TypeScript ~5.9
+      - React Navigation ^7
+      - React Native Reanimated ~4.1
+    backend:
+      - Firebase Authentication
+      - Firebase Firestore
+      - Firebase Storage
+    testing:
+      - Jest ^29.7
+      - React Native Testing Library
+
+  links:
+    github: https://github.com/terrytykuo/tccdk-mobile
+    demo: null
+
+  screenshots: []  # Add screenshot paths here
+
+- id: danish-flashcard-cog
+  name: DanskLingo
+  tagline: AI-powered Danish language learning platform with cognitive science foundations
+  status: Active Development
+  category: Web App / EdTech
+
+  description: |
+    A modern Danish language learning web application designed for mastering vocabulary and grammar.
+    It integrates AI-driven learning tools, cognitive science theories (FSRS spaced repetition),
+    and multiple interactive learning modes including flashcards, speaking practice, listening
+    comprehension, and PD3 exam preparation.
+
+  features:
+    - 7 learning modes including Flashcards, Speaking, Listening, and PD3 Exam prep
+    - FSRS v4 spaced repetition algorithm for scientifically optimized learning
+    - Dual AI integration (Google Gemini + OpenAI) for vocabulary generation and TTS
+    - Progress dashboard with learning analytics and offline support
+    - Full E2E test coverage with Playwright
+
+  tech_stack:
+    frontend:
+      - React 19
+      - TypeScript ~5.8
+      - Vite v6.2
+      - Tailwind CSS
+    data:
+      - Dexie.js (IndexedDB ORM)
+      - LocalStorage
+    ai:
+      - Google Gemini API (gemini-2.5-flash)
+      - OpenAI API (gpt-4o-mini, tts-1-hd)
+    testing:
+      - Vitest
+      - Playwright (E2E)
+
+  links:
+    github: https://github.com/terrytykuo/danish-flashcard-cog
+    demo: null
+
+  screenshots:
+    - /assets/img/projects/dansklingo.png
+
+# Work-in-Progress Projects (from CV)
+- id: ux-agent
+  name: UX Agent
+  tagline: Scalable UX research platform using Generative AI
+  status: Work in Progress
+  category: AI / Research Tool
+
+  description: |
+    An end-to-end, scalable UX research platform using Generative AI and CI/CD automation.
+    The goal is to streamline nuanced user behavior research with LLM Agent systems to
+    significantly accelerate product feedback cycles.
+
+  features:
+    - LLM-powered user behavior analysis and automated research synthesis
+    - CI/CD integration for continuous deployment
+    - Agent-based workflow automation
+
+  tech_stack:
+    ai:
+      - LLM Agents
+      - Generative AI
+    devops:
+      - CI/CD Pipeline
+
+  links:
+    github: null
+    demo: null

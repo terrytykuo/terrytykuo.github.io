@@ -1,0 +1,29 @@
+# Education Data
+
+- institution: Copenhagen University
+  degree: Master of Science
+  field: IT and Cognition
+  period: 2019 - 2021
+  start_date: 2019-09
+  end_date: 2021-06
+  description: |
+    Interdisciplinary curriculum bridging cognitive theories with computational modeling.
+  coursework:
+    - Machine Learning
+    - Scientific Programming (Python)
+    - Natural Language Processing
+
+- institution: National Taiwan University
+  degree: Bachelor of Science
+  field: Psychology
+  period: 2009 - 2013
+  start_date: 2009-09
+  end_date: 2013-06
+  description: |
+    Rigorous training in Quantitative Analysis and experimental design at Taiwan's top-ranked university.
+    Gained foundational knowledge in human cognition and neuroscience, applicable to user-centered design and data analysis.
+  coursework:
+    - Quantitative Analysis
+    - Experimental Design
+    - Cognitive Psychology
+    - Neuroscience

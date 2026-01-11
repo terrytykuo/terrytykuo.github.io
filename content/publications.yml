@@ -1,0 +1,17 @@
+# Publications Data
+
+- title: "Inferring Cocktail Mechanisms of Auditory Attentional Modulation with Deep Neural Networks"
+  journal: Neural Computation
+  year: 2022
+  authors:
+    - Terry Kuo (First Author)
+  abstract: |
+    This paper bridges Cognitive Science theories with AI implementation by using
+    Deep Learning models to simulate auditory attention mechanisms, providing insights
+    into how the brain processes competing audio signals.
+  url: null  # Add DOI or publication URL
+  keywords:
+    - Deep Learning
+    - Auditory Attention
+    - Cognitive Science
+    - Neural Networks

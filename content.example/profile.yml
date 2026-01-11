@@ -1,0 +1,10 @@
+# Your basic profile information
+name: "Jane Doe"
+title: "Senior Software Engineer"
+email: "jane.doe@example.com"
+phone: "+1 234 567 8900"
+location: "San Francisco, CA"
+summary: |
+  Passionate software engineer with 8+ years of experience building scalable
+  web applications. Specialized in backend development and cloud architecture.
+  Open source contributor and technical writer.

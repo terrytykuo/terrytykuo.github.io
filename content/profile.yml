@@ -1,0 +1,29 @@
+# Personal Profile Data
+# This file serves as the single source of truth for all CV and website content
+
+name: Terry Kuo
+title: Senior Data & AI Engineer
+phone: "+45 9194 6396"
+email: trrk.dev@gmail.com
+location: Copenhagen, Denmark
+visa_status: Work and Residence permit in Denmark
+
+# Social Links
+github: terrytykuo
+linkedin: # Add your LinkedIn username
+twitter: # Add your Twitter username
+
+# Professional Summary (used for CV and About page)
+summary: |
+  5x Cloud Certified Senior Engineer with 5+ years of enterprise data expertise in Python, Databricks, SQL, and Azure. Proven leadership experience managing cross-functional projects and engineering teams. Currently focused on AI application development, building Agentic systems and cognitive learning platforms that combine cloud scalability with cutting-edge LLM technologies.
+
+# Keywords for SEO
+keywords:
+  - Data Engineer
+  - AI Engineer
+  - Python
+  - Databricks
+  - Azure
+  - Machine Learning
+  - NLP
+  - LLM

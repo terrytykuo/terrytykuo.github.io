@@ -1,0 +1,32 @@
+# Your work experience
+# List from most recent to oldest
+
+- title: "Senior Software Engineer"
+  company: "Tech Company Inc."
+  location: "San Francisco, CA"
+  period: "2021 - Present"
+  highlights:
+    - "Led migration of monolithic architecture to microservices, improving deployment frequency by 300%"
+    - "Mentored 5 junior developers and established code review best practices"
+    - "Designed and implemented real-time data pipeline processing 1M+ events/day"
+
+- title: "Software Engineer"
+  company: "Startup Labs"
+  location: "New York, NY"
+  period: "2018 - 2021"
+  projects:
+    - name: "E-commerce Platform"
+      highlights:
+        - "Built checkout system handling $10M+ monthly transactions"
+        - "Reduced page load time by 40% through optimization"
+    - name: "Internal Tools"
+      highlights:
+        - "Created admin dashboard used by 50+ team members daily"
+
+- title: "Junior Developer"
+  company: "Agency Co."
+  location: "Boston, MA"
+  period: "2016 - 2018"
+  highlights:
+    - "Developed responsive websites for 20+ clients"
+    - "Introduced automated testing, reducing bug reports by 60%"

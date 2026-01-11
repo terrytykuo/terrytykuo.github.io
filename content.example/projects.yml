@@ -1,0 +1,36 @@
+# Your side projects and portfolio pieces
+
+- name: "Open Source CLI Tool"
+  tagline: "A developer productivity tool with 1000+ GitHub stars"
+  status: "Active"
+  description: |
+    Command-line tool that automates common development workflows.
+    Built with Go for cross-platform compatibility and fast execution.
+  features:
+    - "Automated code scaffolding for multiple frameworks"
+    - "Integration with popular CI/CD platforms"
+    - "Plugin system for extensibility"
+  tech_stack:
+    backend: ["Go", "Cobra"]
+    infrastructure: ["GitHub Actions", "GoReleaser"]
+  screenshots:
+    - "/assets/img/projects/cli-demo.png"
+  links:
+    github: "https://github.com/janedoe/cli-tool"
+
+- name: "Personal Finance Tracker"
+  tagline: "Full-stack app for expense tracking and budgeting"
+  status: "Completed"
+  description: |
+    Web application that helps users track expenses and visualize spending patterns.
+  features:
+    - "Bank account sync via Plaid API"
+    - "Interactive charts and reports"
+    - "Budget alerts and notifications"
+  tech_stack:
+    frontend: ["React", "TypeScript", "Chart.js"]
+    backend: ["Node.js", "Express", "PostgreSQL"]
+    infrastructure: ["Vercel", "Railway"]
+  links:
+    github: "https://github.com/janedoe/finance-app"
+    demo: "https://finance.janedoe.dev"
