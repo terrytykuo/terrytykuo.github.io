@@ -1,0 +1,35 @@
+# Certifications Data
+
+- name: Databricks Professional Data Engineer
+  issuer: Databricks
+  date: 2024
+  credential_id: null
+  url: null
+
+- name: Azure Data Scientist
+  issuer: Microsoft
+  code: DP-100
+  date: 2023
+  credential_id: null
+  url: null
+
+- name: Azure AI Engineer Fundamental
+  issuer: Microsoft
+  code: AI-900
+  date: 2023
+  credential_id: null
+  url: null
+
+- name: Azure Data Fundamental
+  issuer: Microsoft
+  code: DP-900
+  date: 2022
+  credential_id: null
+  url: null
+
+- name: AWS Cloud Practitioner
+  issuer: Amazon Web Services
+  code: CLF-C02
+  date: 2024
+  credential_id: null
+  url: null

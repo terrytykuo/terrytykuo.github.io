@@ -1,0 +1,114 @@
+# Work Experience Data
+# Structured for both CV generation and website display
+
+- company: PostNord
+  location: Copenhagen
+  title: Data Engineer, Business Insights
+  period: 2024 - Present
+  start_date: 2024-01
+  end_date: 2025-12  # null means current
+  summary: |
+    Driving data modernization initiatives by translating complex business logic into production-ready code. Managing CI/CD releases and orchestrating scalable data workflows on Databricks and Azure.
+  highlights:
+    - Translated complex business logic into production code while managing CI/CD release processes for seamless deployments
+    - Modernized reporting architecture by re-engineering legacy logic into optimized SQL on Databricks
+    - Orchestrated scalable data workflows via Azure Data Factory to ensure automated and reliable data delivery
+  technologies:
+    - Databricks
+    - Azure Data Factory
+    - SQL
+    - CI/CD
+    - Python
+    - PySpark
+
+- company: Capgemini
+  location: Copenhagen
+  title: IT Consultant, Data & Insights
+  period: 2021 - 2024
+  start_date: 2021-01
+  end_date: 2024-01
+  summary: |
+    Delivered data solutions across major enterprises including TDC, Essity, and Nets. Led a QA team to engineer automated testing pipelines, achieving 12x ETL performance improvements and architecting modern data warehouse solutions.
+  projects:
+    - name: Legacy Migration Project in TDC A/S
+      highlights:
+        - Executed the migration of 30+ mission-critical legacy reports from T-SQL to Databricks SQL, establishing modern data processing standards
+        - Enhanced ETL performance by refactoring Databricks notebook structures and optimizing Spark execution plans, reducing running time from 60+ minutes to ~5 minutes
+        - Led a QA team to engineer an automated testing pipeline using Python, significantly reducing manual testing hours while ensuring data integrity
+      technologies:
+        - Databricks
+        - T-SQL
+        - Python
+        - Spark
+
+    - name: Analytics Project in Essity AB
+      highlights:
+        - Acted as a technical liaison between Marketing and Analytics departments, resolving workflow misalignments
+        - Architected a modern, scalable data warehouse solution from the ground up to replace legacy infrastructure
+        - Achieved a 6x performance improvement in daily data processing by re-engineering pipelines using PySpark, Databricks, and Azure Data Lake
+        - Empowered analysts by deploying high-impact PowerBI solutions, enabling data-driven strategic decisions
+      technologies:
+        - PySpark
+        - Databricks
+        - Azure Data Lake
+        - PowerBI
+
+    - name: Fraud Prevention Project in Nets A/S
+      highlights:
+        - Engineered a high-volume Financial Crime Prevention (FCP) data product (PSD2) currently utilized by major Danish banks
+        - Orchestrated a massive-scale migration of TB-level data from 10+ disparate databases using Hive SQL
+        - Collaborated on defining modelling methodologies, driving improvements in feature selection and loss function optimization
+      technologies:
+        - Hive SQL
+        - PSD2
+        - Machine Learning
+
+- company: Neurons Inc.
+  location: Copenhagen
+  title: Machine Learning Intern
+  period: 2020 - 2021
+  start_date: 2020-01
+  end_date: 2021-01
+  summary: |
+    Master thesis cooperation: built multimodal Computer Vision models for predicting human visual fixation on GCP. Developed end-to-end data pipelines handling 120GB video datasets, optimizing distributed training performance.
+  highlights:
+    - Developed a multimodal Computer Vision model to predict human visual fixation, enhancing prediction accuracy by engineering an audio extraction feature pipeline
+    - Built and orchestrated end-to-end data pipelines on Google Cloud Platform (GCP) using Python and TensorFlow to handle large-scale video datasets (~120 GB)
+    - Optimized distributed training performance by identifying bottlenecks with TensorFlow Profiler, significantly reducing model training time
+    - Designed efficient preprocessing workflows for unstructured video data, ensuring high-quality input for deep learning models
+  technologies:
+    - Python
+    - TensorFlow
+    - GCP
+    - Computer Vision
+
+- company: Tsinghua University
+  location: Beijing
+  title: Research Assistant
+  period: 2018 - 2019
+  start_date: 2018-01
+  end_date: 2019-01
+  summary: |
+    Conducted AI research bridging Cognitive Science and Deep Learning. Published peer-reviewed paper on auditory attention mechanisms as first author in Neural Computation (2022).
+  highlights:
+    - Engineered Deep Learning models using Python and PyTorch to simulate auditory attention mechanisms, bridging Cognitive Science theories with AI implementation
+    - Built robust data preprocessing pipelines for unstructured datasets (Audio and Image)
+    - "Authored and published a peer-reviewed paper as First Author: 'Inferring Cocktail Mechanisms of Auditory Attentional Modulation with Deep Neural Networks', Neural Computation (2022)"
+  technologies:
+    - Python
+    - PyTorch
+    - Deep Learning
+    - Audio Processing
+
+# - company: Adecco
+#   location: Taipei
+#   title: Recruitment Consultant
+#   period: 2015 - 2018
+#   start_date: 2015-01
+#   end_date: 2018-01
+#   summary: |
+#     Specialized in talent acquisition and client relationship management. Recognized as top-performing new employee for achieving highest sales performance.
+#   highlights:
+#     - Specialized in talent recruitment and managed client relationships effectively
+#     - Earned top-performing new employee by achieving the highest sales
+#   technologies: []

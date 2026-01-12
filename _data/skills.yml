@@ -1,0 +1,76 @@
+# Skills Data
+# Organized by category for flexible display
+
+technical:
+  - category: Programming Languages
+    items:
+      - name: Python
+        level: Expert
+      - name: SQL
+        level: Expert
+      - name: TypeScript
+        level: Intermediate
+
+  - category: Data Engineering
+    items:
+      - name: Databricks
+        level: Expert
+      - name: ETL/ELT Pipeline
+        level: Expert
+      - name: Azure Data Factory
+        level: Advanced
+      - name: Azure Data Lake
+        level: Advanced
+      - name: PySpark
+        level: Advanced
+      - name: Hive SQL
+        level: Advanced
+
+  - category: Cloud Platforms
+    items:
+      - name: Azure Cloud
+        level: Expert
+      - name: Google Cloud Platform (GCP)
+        level: Intermediate
+      - name: AWS
+        level: Fundamental
+
+  - category: AI / Machine Learning
+    items:
+      - name: TensorFlow
+        level: Intermediate
+      - name: PyTorch
+        level: Intermediate
+      - name: LLM / Generative AI
+        level: Advanced
+      - name: Computer Vision
+        level: Intermediate
+      - name: NLP
+        level: Intermediate
+
+  - category: DevOps & Tools
+    items:
+      - name: CI/CD
+        level: Advanced
+      - name: Azure DevOps
+        level: Advanced
+      - name: Git
+        level: Advanced
+      - name: Docker
+        level: Intermediate
+
+  - category: Data Visualization
+    items:
+      - name: PowerBI
+        level: Advanced
+
+# Simplified list for CV
+flat_list:
+  - Python
+  - SQL
+  - Databricks
+  - ETL Pipeline
+  - CI/CD + Azure DevOps
+  - AI / Machine Learning
+  - Business Data Analytics
+  - Workflow Orchestration

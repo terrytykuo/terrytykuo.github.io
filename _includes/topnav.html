@@ -1,0 +1,17 @@
+<nav class="topnav">
+  <a href="{{ '/' | relative_url }}" class="topnav-logo">Main</a>
+  <div class="topnav-links">
+    <a href="{{ '/cv/' | relative_url }}" {% if page.url == '/cv/' %}class="active"{% endif %}>
+      <i class="fas fa-file-alt"></i><span>CV</span>
+    </a>
+    <a href="{{ '/projects/' | relative_url }}" {% if page.url == '/projects/' %}class="active"{% endif %}>
+      <i class="fas fa-code"></i><span>Personal Projects</span>
+    </a>
+    <a href="{{ '/community/' | relative_url }}" {% if page.url == '/community/' %}class="active"{% endif %}>
+      <i class="fas fa-users"></i><span>Talks & Community</span>
+    </a>
+    <a href="https://github.com/{{ site.github.username }}" target="_blank">
+      <i class="fab fa-github"></i>
+    </a>
+  </div>
+</nav>
