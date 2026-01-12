@@ -1,0 +1,209 @@
+---
+layout: compress
+---
+
+<!doctype html>
+
+{% include origin-type.html %}
+
+{% include lang.html %}
+
+{% if site.theme_mode %}
+  {% capture prefer_mode %}data-mode="{{ site.theme_mode }}"{% endcapture %}
+{% endif %}
+
+<html lang="{{ page.lang | default: site.alt_lang | default: site.lang }}" {{ prefer_mode }}>
+  {% include head.html %}
+
+  <body>
+    {% include topnav.html %}
+
+    <div id="main-wrapper" class="topnav-layout">
+      <div class="container">
+        <main aria-label="Main Content" class="main-content">
+          {% if layout.layout == 'default' %}
+            {% include refactor-content.html content=content lang=lang %}
+          {% else %}
+            {{ content }}
+          {% endif %}
+        </main>
+
+        <footer class="site-footer">
+          <p>&copy; {{ 'now' | date: '%Y' }} {{ site.social.name }}</p>
+        </footer>
+      </div>
+
+      <aside aria-label="Scroll to Top">
+        <button id="back-to-top" type="button" class="btn btn-lg btn-box-shadow">
+          <i class="fas fa-angle-up"></i>
+        </button>
+      </aside>
+    </div>
+
+    <div id="mask" class="d-none position-fixed w-100 h-100 z-1"></div>
+
+    {% include_cached search-loader.html lang=lang %}
+  </body>
+</html>
+
+<style>
+/* Accent Colors */
+:root {
+  --accent: #2563eb;
+  --accent-light: #3b82f6;
+  --accent-bg: #eff6ff;
+}
+
+html[data-mode="dark"] {
+  --accent: #60a5fa;
+  --accent-light: #93c5fd;
+  --accent-bg: #1e3a5f;
+}
+
+/* Layout */
+body {
+  padding-top: 60px;
+}
+
+.topnav {
+  position: fixed;
+  top: 0;
+  left: 0;
+  right: 0;
+  height: 60px;
+  background: var(--body-bg);
+  border-bottom: 1px solid var(--main-border-color);
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 0 2rem;
+  z-index: 1000;
+}
+
+.topnav-logo {
+  font-size: 1rem;
+  font-weight: 700;
+  color: var(--heading-color);
+  text-decoration: none;
+}
+
+.topnav-logo:hover {
+  color: var(--accent);
+  text-decoration: none;
+}
+
+.topnav-links {
+  display: flex;
+  gap: 1.5rem;
+  align-items: center;
+}
+
+.topnav-links a {
+  font-size: 0.85rem;
+  color: var(--text-muted-color);
+  text-decoration: none;
+  transition: color 0.15s;
+}
+
+.topnav-links a:hover,
+.topnav-links a.active {
+  color: var(--accent);
+}
+
+.topnav-links a i {
+  margin-right: 0.25rem;
+}
+
+/* Main Layout */
+.topnav-layout {
+  margin-left: 0 !important;
+  display: flex;
+  justify-content: center;
+}
+
+.topnav-layout > .container {
+  max-width: 720px;
+  width: 100%;
+  padding: 2rem 1.5rem;
+}
+
+.main-content {
+  min-height: calc(100vh - 200px);
+}
+
+/* Footer */
+.site-footer {
+  margin-top: 3rem;
+  padding: 1rem 0;
+  border-top: 1px solid var(--main-border-color);
+  text-align: center;
+  color: var(--text-muted-color);
+  font-size: 0.8rem;
+}
+
+/* Global Tag Style */
+code {
+  font-family: 'SF Mono', 'Fira Code', 'Consolas', monospace !important;
+  font-size: 0.75rem !important;
+  padding: 0.2rem 0.5rem;
+  background: var(--accent-bg) !important;
+  border: 1px solid var(--main-border-color);
+  border-radius: 4px;
+  color: var(--text-color) !important;
+}
+
+/* Typography - Match home page */
+h1 {
+  font-size: 1.5rem;
+  font-weight: 700;
+  margin-bottom: 1rem;
+}
+
+h2 {
+  font-size: 0.85rem;
+  font-weight: 600;
+  text-transform: uppercase;
+  letter-spacing: 0.08em;
+  color: var(--accent);
+  margin-top: 2rem;
+  margin-bottom: 1rem;
+  padding-bottom: 0.5rem;
+  border-bottom: 1px solid var(--main-border-color);
+}
+
+h3 {
+  font-size: 0.95rem;
+  font-weight: 600;
+  margin-top: 1.5rem;
+  margin-bottom: 0.75rem;
+}
+
+p, li {
+  font-size: 0.9rem;
+  line-height: 1.6;
+}
+
+/* Mobile */
+@media (max-width: 768px) {
+  .topnav {
+    padding: 0 1rem;
+  }
+
+  .topnav-links {
+    gap: 1rem;
+  }
+
+  .topnav-links a span {
+    display: none;
+  }
+
+  .topnav-links a i {
+    margin-right: 0;
+    font-size: 1rem;
+  }
+
+  .topnav-layout > .container {
+    padding: 1.5rem 1rem;
+  }
+}
+</style>

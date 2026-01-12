@@ -47,6 +47,68 @@ Edit these files to change the HTML structure or CSS styles.
 *   **Site Config**: `_config.yml` (Root)
     *   *Description*: Standard Jekyll config. Title, specific SEO settings, and plugin configurations.
 
+## 📋 Content Schema & Examples
+
+### Experience (`content/experience.yml`)
+```yaml
+- title: "Job Title"
+  company: "Company Name"
+  location: "City, Country"
+  period: "2020 - Present"
+  highlights:
+    - "Achievement 1"
+    - "Achievement 2"
+  projects:  # Optional: for multiple projects within one role
+    - name: "Project Name"
+      highlights:
+        - "Project achievement"
+```
+
+### Projects (`content/projects.yml`)
+```yaml
+- name: "Project Name"
+  tagline: "One-line description"
+  status: "Active"  # or "Completed", "In Development"
+  description: "Detailed description in markdown"
+  features:
+    - "Feature 1"
+  tech_stack:
+    backend: ["Python", "FastAPI"]
+    frontend: ["React", "TypeScript"]
+  screenshots:
+    - "/assets/img/projects/screenshot1.png"
+  links:
+    github: "https://github.com/user/repo"
+    demo: "https://demo.example.com"
+```
+
+### Community (`content/community.yml`)
+Contains complex nested structures for `leadership` and `talks`.
+```yaml
+talks:
+  - title: "Talk Title"
+    event: "Event Name"
+    date: "2024"
+    slides_url: "..."
+```
+
+## 🤖 AI Workflow & Commands
+
+### Development Commands
+*   `jekyll serve`: Preview website locally (http://localhost:4000)
+*   `jekyll build`: Build static site to `_site/`
+
+### Asset Handling
+*   **Screenshots**: Resize to max 800px width, optimize size, place in `content/assets/projects/`, and update YAML.
+*   **Parsers**: When processing resumes/LinkedIn, map unstructured text to the YAML schemas above.
+
+### Style Guidelines
+*   **Tone**: Concise (2-3 sentences max).
+*   **Verbs**: Use action verbs ("Built", "Designed", "Led").
+*   **Metrics**: Quantify achievements ("Improved performance by 40%").
+*   **Dates**: Consistent format ("2020 - Present" or "Jan 2020 - Dec 2021").
+*   **Language**: Primary English. Optional Chinese with `_zh` suffix.
+
 ## 🛠️ Contribution Guidelines (for AI Agents)
 **When to update this file:**
 1.  **Hard-to-find files**: If you had to search multiple directories to find where a component is defined.

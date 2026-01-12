@@ -1,0 +1,119 @@
+<!-- Custom head content -->
+<style>
+/* Override Chirpy sidebar to top navbar */
+
+/* Hide default sidebar */
+#sidebar {
+  display: none !important;
+}
+
+/* Remove sidebar margin from main content */
+#main-wrapper {
+  margin-left: 0 !important;
+}
+
+#main {
+  max-width: 800px;
+  margin: 0 auto;
+  padding: 1rem;
+}
+
+/* Top Navigation Bar */
+.topnav {
+  position: fixed;
+  top: 0;
+  left: 0;
+  right: 0;
+  height: 60px;
+  background: var(--main-bg);
+  border-bottom: 1px solid var(--border-color);
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 0 2rem;
+  z-index: 1000;
+}
+
+.topnav-logo {
+  font-size: 1.1rem;
+  font-weight: 700;
+  color: var(--text-color);
+  text-decoration: none;
+}
+
+.topnav-logo:hover {
+  color: var(--link-color);
+  text-decoration: none;
+}
+
+.topnav-links {
+  display: flex;
+  gap: 1.5rem;
+  align-items: center;
+}
+
+.topnav-links a {
+  font-size: 0.9rem;
+  color: var(--text-muted-color);
+  text-decoration: none;
+  transition: color 0.15s;
+}
+
+.topnav-links a:hover,
+.topnav-links a.active {
+  color: var(--link-color);
+}
+
+.topnav-links a i {
+  margin-right: 0.3rem;
+}
+
+/* Add top padding to body for fixed navbar */
+body {
+  padding-top: 70px !important;
+}
+
+/* Search and mode toggle in topnav */
+#search-wrapper {
+  display: none;
+}
+
+/* Tech badges - global mono style */
+code, .tech-badge, .skill-tag, .stack-category code {
+  font-family: 'SF Mono', 'Fira Code', 'Consolas', monospace !important;
+  font-size: 0.8rem;
+  padding: 0.2rem 0.5rem;
+  background: var(--code-bg);
+  border: 1px solid var(--border-color);
+  border-radius: 4px;
+}
+
+/* Mobile responsive */
+@media (max-width: 768px) {
+  .topnav {
+    padding: 0 1rem;
+  }
+
+  .topnav-links {
+    gap: 1rem;
+  }
+
+  .topnav-links a span {
+    display: none;
+  }
+
+  .topnav-links a i {
+    margin-right: 0;
+    font-size: 1.1rem;
+  }
+}
+
+/* Footer adjustments */
+#core-wrapper {
+  min-height: calc(100vh - 70px);
+}
+
+footer {
+  margin-left: 0 !important;
+}
+</style>
