@@ -1,0 +1,14 @@
+# This file overrides GitHub's automatic pages-build-deployment workflow
+# We use our own Build and Deploy workflow (pages-deploy.yml) instead
+
+name: pages-build-deployment
+
+on:
+  workflow_dispatch:  # Only run manually, never automatically
+
+jobs:
+  skip:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Skip
+        run: echo "This workflow is disabled. Use Build and Deploy workflow instead."
