@@ -4,6 +4,10 @@ source "https://rubygems.org"
 
 gem "jekyll-theme-chirpy", "~> 7.3", ">= 7.3.1"
 
+group :test do
+  gem "html-proofer", "~> 5.0"
+end
+
 platforms :mingw, :x64_mingw, :mswin, :jruby do
   gem "tzinfo", ">= 1", "< 3"
   gem "tzinfo-data"
