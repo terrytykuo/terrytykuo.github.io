@@ -6,7 +6,7 @@
   title: Data Engineer, Business Insights
   period: 2024 - Present
   start_date: 2024-01
-  end_date: null  # null means current
+  end_date: 2025-12  # null means current
   summary: |
     Driving data modernization initiatives by translating complex business logic into production-ready code. Managing CI/CD releases and orchestrating scalable data workflows on Databricks and Azure.
   highlights:
@@ -19,6 +19,7 @@
     - SQL
     - CI/CD
     - Python
+    - PySpark
 
 - company: Capgemini
   location: Copenhagen
@@ -27,7 +28,7 @@
   start_date: 2021-01
   end_date: 2024-01
   summary: |
-    Delivered data solutions across major enterprises including TDC, Essity, and Nets. **Led a QA team** to engineer automated testing pipelines, achieving 12x ETL performance improvements and architecting modern data warehouse solutions.
+    Delivered data solutions across major enterprises including TDC, Essity, and Nets. Led a QA team to engineer automated testing pipelines, achieving 12x ETL performance improvements and architecting modern data warehouse solutions.
   projects:
     - name: Legacy Migration Project in TDC A/S
       highlights:
@@ -69,7 +70,7 @@
   start_date: 2020-01
   end_date: 2021-01
   summary: |
-    Built multimodal Computer Vision models for predicting human visual fixation on GCP. **Led the development** of end-to-end data pipelines handling 120GB video datasets, optimizing distributed training performance.
+    Master thesis cooperation: built multimodal Computer Vision models for predicting human visual fixation on GCP. Developed end-to-end data pipelines handling 120GB video datasets, optimizing distributed training performance.
   highlights:
     - Developed a multimodal Computer Vision model to predict human visual fixation, enhancing prediction accuracy by engineering an audio extraction feature pipeline
     - Built and orchestrated end-to-end data pipelines on Google Cloud Platform (GCP) using Python and TensorFlow to handle large-scale video datasets (~120 GB)
@@ -99,15 +100,15 @@
     - Deep Learning
     - Audio Processing
 
-- company: Adecco
-  location: Taipei
-  title: Recruitment Consultant
-  period: 2015 - 2018
-  start_date: 2015-01
-  end_date: 2018-01
-  summary: |
-    Specialized in talent acquisition and client relationship management. Recognized as top-performing new employee for achieving highest sales performance.
-  highlights:
-    - Specialized in talent recruitment and managed client relationships effectively
-    - Earned top-performing new employee by achieving the highest sales
-  technologies: []
+# - company: Adecco
+#   location: Taipei
+#   title: Recruitment Consultant
+#   period: 2015 - 2018
+#   start_date: 2015-01
+#   end_date: 2018-01
+#   summary: |
+#     Specialized in talent acquisition and client relationship management. Recognized as top-performing new employee for achieving highest sales performance.
+#   highlights:
+#     - Specialized in talent recruitment and managed client relationships effectively
+#     - Earned top-performing new employee by achieving the highest sales
+#   technologies: []
