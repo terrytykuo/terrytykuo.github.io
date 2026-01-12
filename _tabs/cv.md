@@ -3,6 +3,7 @@ layout: page
 icon: fas fa-file-alt
 order: 1
 title: CV
+permalink: /resume/
 ---
 
 <div class="cv-header">
