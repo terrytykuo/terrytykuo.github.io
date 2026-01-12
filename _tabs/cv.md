@@ -16,7 +16,7 @@ permalink: /resume/
   </div>
 </div>
 <div class="cv-actions">
-  <a href="{{ site.baseurl }}/cv/download_pdf/Terry_Kuo_CV_Data_AI_Engineer.pdf" class="btn-download" download>
+  <a href="{{ '/cv/download_pdf/Terry_Kuo_CV_Data_AI_Engineer.pdf' | relative_url }}" class="btn-download" download="Terry_Kuo_CV_Data_AI_Engineer.pdf">
     <i class="fas fa-download"></i> Download CV PDF
   </a>
 </div>
